@@ -16,5 +16,5 @@ function calculateLoan() {
 
     // Display the result
     var resultElement = document.getElementById('result');
-    resultElement.innerHTML = "Maximum amount of loan you can take: $" + maximumLoanAmount.toFixed(2);
+    resultElement.innerHTML = "Maximum amount of loan you can take: Rs." + maximumLoanAmount.toFixed(2);
 }
