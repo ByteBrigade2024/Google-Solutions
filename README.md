@@ -12,12 +12,16 @@ Our team Byte Brigade has created a website that helps people to educate people 
 
 ## Features
 
-- Financial Advisor and calculator helps you knowing the investment options and advisory.
-- Medical advisor helps you to know the medical investment options.
+
+- With a focus on accessibility and affordability, our platform aims to empower users to take control of their finances and make informed decisions about their money. By providing personalized financial planning tools and resources, we help lower middle class individuals budget effectively, set achievable financial goals, and explore investment options that align with their risk tolerance and aspirations.
+
+- Through our user-friendly interface and practical recommendations, we strive to bridge the gap between financial aspirations and reality, enabling users to build a secure financial future for themselves and their families. Whether it's saving for retirement, paying off debt, or investing in their future, and medical insurance also, our website offers tailored solutions to help lower middle class individuals achieve their financial goals with confidence.
 - Debt calculator helps you to calculate wheather you can afford the certain amount of debt or not. And if you can, what would be the payment criterias.
+
 #### Future Scopes
 
-- We will add a video integrated certification course at very low costings that would help to gain a better understanding of finance.
+
+- A video integrated certification course at very low costings that would help to gain a better understanding of finance.
 - Login and ID feature that would help to track everything on the website. 
 - One on One customer Support.
 
