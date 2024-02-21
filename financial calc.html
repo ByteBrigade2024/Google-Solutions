@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte Brigade</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+
+<form id="financialPlannerForm">
+    <h2>Investment Planner By Byte Brigade</h2>
+    <label for="salary">Annual Salary after taxes:</label>
+    <input type="number" id="salary" name="salary" required>
+
+    <label for="expenses">Yearly Expenses:</label>
+    <input type="number" id="expenses" name="expenses" required>
+
+    <label for="riskTolerance">Risk Tolerance:</label>
+    <select id="riskTolerance" name="riskTolerance" required>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <h3>Financial Goals</h3>
+    <label for="retirementGoal">Retirement Goal ($):</label>
+    <input type="number" id="retirementGoal" name="retirementGoal">
+
+    <label for="debtGoal">Debt Payoff Goal ($):</label>
+    <input type="number" id="debtGoal" name="debtGoal">
+
+    <label for="purchaseGoal">Purchase Goal ($):</label>
+    <input type="number" id="purchaseGoal" name="purchaseGoal">
+
+    <label for="medicalInsurance">Do you have Medical Insurance?</label>
+    <input type="checkbox" id="medicalInsurance" name="medicalInsurance">
+    
+    <div id="insuranceInput" style="display:none;">
+        <label for="insuranceAmount">Annual Medical Insurance Expenditure ($):</label>
+        <input type="number" id="insuranceAmount" name="insuranceAmount">
+    </div>
+
+    <button type="button" onclick="calculateResults()">Calculate</button>
+</form>
+
+<div id="results" style="display:none;">
+    <h2>Financial Plan Results</h2>
+    <p>Total available funds after expenses:</p>
+    <p id="availableFunds"></p>
+    <p>Recommendations:</p>
+    <ul id="recommendations"></ul>
+</div>
+
+<script src="script1.js"></script>
+
+</body>
+</html>
