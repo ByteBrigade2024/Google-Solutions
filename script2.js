@@ -1,14 +1,20 @@
 function calculateLoan() {
-    var salary = parseFloat(document.getElementById('salary').value);
-    var interest = parseFloat(document.getElementById('interest').value);
-    var time = parseFloat(document.getElementById('time').value);
+    var grossSalary = parseFloat(document.getElementById('grossSalary').value);
+    var interestRate = parseFloat(document.getElementById('interestRate').value);
+    var loanDuration = parseFloat(document.getElementById('loanDuration').value);
 
-    if (isNaN(salary) || isNaN(interest) || isNaN(time)) {
+    if (isNaN(grossSalary) || isNaN(interestRate) || isNaN(loanDuration)) {
         alert("Please enter valid numbers.");
         return;
     }
 
-    var maxLoan = (salary * 0.25) / (1 + (interest / 100) * time);
+    // Calculate maximum loan amount using the formula
+    var totalGrossIncome = grossSalary;
+    var totalMonthlyDebtPayments = 0; // Assuming no existing debt payments for simplicity
+    var debtToIncomeRatio = 0.25; // 25% for the debt-to-income ratio
+    var maximumLoanAmount = (totalGrossIncome - totalMonthlyDebtPayments) * debtToIncomeRatio;
+
+    // Display the result
     var resultElement = document.getElementById('result');
-    resultElement.innerHTML = "Maximum amount of loan you can take: $" + maxLoan.toFixed(2);
+    resultElement.innerHTML = "Maximum amount of loan you can take: $" + maximumLoanAmount.toFixed(2);
 }
