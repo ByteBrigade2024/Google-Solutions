@@ -6,9 +6,9 @@ Our team Byte Brigade has created a website that helps people to educate people 
 
 ## Authors
 
-- [@Abhinav Gaur](https://www.github.com/Abhishan999)
-- [@Naman Jain](https://www.github.com/naman7115)
-- [@Rachit Sehgal](https://www.github.com/watcher2105)
+- [@Abhinav Gaur](https://www.github.com/Abhishan999){Coding of the website}
+- [@Naman Jain](https://www.github.com/naman7115){Research and R&D}
+- [@Rachit Sehgal](https://www.github.com/watcher2105){Planning PPT and R&D}
 
 ## Features
 
